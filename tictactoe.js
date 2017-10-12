@@ -1,17 +1,16 @@
 //JS code goes here
 
-//for checking blocks in the game that have been clicked once
 var clicked = [
 false, false, false,
 false, false, false,
 false, false, false
 ];
 
-//to keep the marks of the players;
+
 var mark = [
   0,0,0,0,0,0,0,0,0
 ]
-//the winning-combinations
+
 var endGame = [
     [0,1,2],
     [3,4,5],
@@ -23,13 +22,13 @@ var endGame = [
     [2,4,6]
 ];
 
-//to set turns
+
 var turn = true;
 
-//to know when the game's over
+
 var gameOver = false;
 
-//win counts
+
 var p1wins=0;
 var p2wins=0;
 
